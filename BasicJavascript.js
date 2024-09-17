@@ -81,9 +81,9 @@ heading.textContent = 'Hello, World!';
 // Changing the style
 heading.style.color = 'blue';
 
-
 ==========================================
 ==========================================
+    
 // Event Handling
 // Adding a click event listener
 document.querySelector('button').addEventListener('click', () => {
