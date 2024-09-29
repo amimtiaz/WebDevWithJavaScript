@@ -26,6 +26,7 @@ function greet(name) {
 // Calling the function
 console.log(greet('John'));
 
+
 // Arrow function
 const add = (a, b) => a + b;
 console.log(add(5, 3));
