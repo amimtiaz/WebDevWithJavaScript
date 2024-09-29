@@ -1,4 +1,4 @@
-# Web Development with JavaScript
+# JavaScript Code
 
 This repository contains essential JavaScript code snippets and examples that will assist you in web development. The code provided here covers various core concepts, best practices, and useful tips to help streamline web development tasks.
 
