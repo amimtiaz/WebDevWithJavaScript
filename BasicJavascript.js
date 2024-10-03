@@ -1,4 +1,17 @@
 
+// forEach loop ==>
+const names = ['Alice', 'Bob', 'Charlie', 'David', 'Emma'];
+names.forEach(function (value, index,array) {
+    console.log(`${index} : ${value}`);
+    console.log(value);
+    console.log(index);
+    console.log(array);
+
+});
+
+//  ==
+
+
 // Declaring variables
 let name = 'John'; // String
 let age = 30; // Number
