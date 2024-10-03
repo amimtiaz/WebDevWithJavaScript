@@ -9,7 +9,25 @@ names.forEach(function (value, index,array) {
 
 });
 
-//  ==
+//  filter ==>
+
+const users = [
+    { name: "Alice", age: 25 },
+    { name: "Bob", age: 17 },
+    { name: "Charlie", age: 19 },
+    { name: "David", age: 15 }
+  ];
+
+  const adultUsers = users.filter(user => user.age >= 18);
+
+  console.log(adultUsers);
+
+// ---------------
+
+const fruits = ["apple", "banana", "grape", "mango", "melon"];
+
+const filteredFruits = fruits.filter(fruit => fruit.startsWith("m"));
+console.log(filteredFruits);
 
 
 // Declaring variables
