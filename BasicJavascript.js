@@ -30,6 +30,42 @@ const filteredFruits = fruits.filter(fruit => fruit.startsWith("m"));
 console.log(filteredFruits);
 
 
+//===============>>
+
+const names = ['Alice', 'Bob', 'Charlie', 'David', 'Emma'];
+
+// spread and rest operator
+
+const copyNames = [...names];
+// console.log(copyNames);
+
+const person = {
+    name: 'John',
+    age: 30,
+    city: 'New York'
+};
+
+const newObj = {...person};
+// console.log(newObj);
+
+function abcd(...rest){
+    console.log(rest);
+}
+
+abcd(1,2,3,4,5,6,7,8,9,10);
+
+
+function abck(a,b,c,...rest){
+    console.log(a,b,c,rest);
+}
+
+abck(1,2,3,4,5,6,7,8,9,10);
+
+
+
+//=========================>>
+
+
 // Declaring variables
 let name = 'John'; // String
 let age = 30; // Number
@@ -121,3 +157,5 @@ heading.style.color = 'blue';
 document.querySelector('button').addEventListener('click', () => {
     alert('Button clicked!');
 });
+
+
